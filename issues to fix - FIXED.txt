@@ -1,0 +1,11 @@
+
+Player:X, Played at: 00, seq: 1
+Player:O, Played at: 11, seq: 2
+Player:X, Played at: 10, seq: 3
+Player:O, Played at: 20, seq: 4
+Player:X, Played at: 02, seq: 5
+Player:O, Played at: 01, seq: 6
+Player:X, Played at: 12, seq: 7
+Player:O, Played at: 22, seq: 8
+
+O should have clicked at 21 to win before preventing X's win
