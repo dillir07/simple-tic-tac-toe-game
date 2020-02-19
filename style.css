@@ -1,0 +1,31 @@
+table{
+    border-collapse:collapse;
+    }
+
+td {
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    vertical-align: middle;
+    background-color:steelblue;
+    border: solid black;
+    font-size: 100px;
+}
+
+.error {
+    font-size: 50px;
+    background-color: #f32121;
+    color: white;
+}
+
+.success {
+    font-size: 50px;
+    background-color: #106605;
+    color: white;
+}
+
+.info {
+    font-size: 50px;
+    background-color: #2196f3;
+    color: white;
+}
