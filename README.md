@@ -1,7 +1,5 @@
 
-#  tic-tac-toe-simple
-
-A Simple tic-tac-toe game...
+#  A simple tic-tac-toe game using Javascript
 
 ## Note: This is simple tic-tac-toe game not using techniques like Minmax algorithm.
 
