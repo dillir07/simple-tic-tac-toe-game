@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Simple Tic Tac Toe Game</title>
+    <script src="js.js"></script>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body onload="initGame()">
+    <p id="res"></p>
+    <p id="turnInfo"></p>
+    <div>
+        <table>
+            <tr>
+                <td class='square' id='00' onclick="updateUserAction(this)"></td>
+                <td class='square' id='01' onclick="updateUserAction(this)"></td>
+                <td class='square' id='02' onclick="updateUserAction(this)"></td>
+            </tr>
+            <tr>
+                <td class='square' id='10' onclick="updateUserAction(this)"></td>
+                <td class='square' id='11' onclick="updateUserAction(this)"></td>
+                <td class='square' id='12' onclick="updateUserAction(this)"></td>
+            </tr>
+            <tr>
+                <td class='square' id='20' onclick="updateUserAction(this)"></td>
+                <td class='square' id='21' onclick="updateUserAction(this)"></td>
+                <td class='square' id='22' onclick="updateUserAction(this)"></td>
+            </tr>
+        </table>
+    </div>
+    <br>
+    <div>
+        <input type="button" value="Replay" onclick="initGame()" />
+    </div>
+    </div>
+    <textarea id="playLog" onclick="this.select();document.execCommand('copy')">
+    </textarea>
+    <Label>Debug?</Label> : <input type="checkbox" value="Debug" id="debug" />
+    </div>
+</body>
+
+</html>
