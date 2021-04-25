@@ -37,7 +37,7 @@ div {
   width: 500px;
   height: 500px;
   margin-top: 10px;
-  margin-right: 300px;
+  margin-right: 100px;
   background-color: #464EB8;
   color: #fff;
   border: 6px solid #7B83EB;
@@ -66,7 +66,7 @@ li {
 aside {
   color: silver;
   font-size: 20px;
-  margin-left: 300px;
+  margin-left: 200px;
   float: left;
   position: relative;
   top: 0px;
@@ -87,6 +87,7 @@ main {
 button {
   background-color: #7B83EB;
   border: none;
+  color: #31378d;
   padding: 5px;
 }
 
@@ -95,5 +96,6 @@ h3 {
 }
 
 #res {
-  color: goldenrod;
+  font-size: 40px;
+  color: silver;
 }
