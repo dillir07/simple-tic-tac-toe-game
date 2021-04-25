@@ -1,6 +1,6 @@
 {
     "name": "microsoft-teams-ext",
-    "version": "0.1.0",
+    "version": "1.0.3",
     "homepage": "https://dillir07.github.io/tictactoe",
     "msteams": {
         "teamsAppId": "cf1224ff-70e2-4809-bd33-9b94bb3f2b98"

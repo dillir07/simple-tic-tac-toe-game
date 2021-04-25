@@ -78,15 +78,18 @@ const Game = () => {
 
     return (
         <>
-            <h1> Tic Tac Toe</h1>
-            <main>
-                <Board squares={history[stepNumber]} onClick={handleUserClick}> </Board>
-            </main>
-            <aside>
-                <h3>History</h3>
-                <nav>{renderMoves()}</nav>
-                <h3>{winner ? `winner: ${winner}` : stepNumber >= 4 ? 'DRAW' : `next player:${player}`}</h3>
-            </aside>
+            <header>Tic Tac Toe</header>
+            <div>
+                <main>
+                    <Board squares={history[stepNumber]} onClick={handleUserClick}> </Board>
+                </main>
+                <aside>
+                    <h3>Timeline:</h3>
+                    <nav>{renderMoves()}</nav>
+                    <h3 id="res">{winner ? `winner: ${winner}` : stepNumber >= 4 ? 'DRAW' : `next player:${player}`}</h3>
+                </aside>
+            </div>
+            {/* <footer>Footer</footer> */}
         </>
     );
 }
